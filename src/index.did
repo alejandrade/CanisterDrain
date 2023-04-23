@@ -1,0 +1,2 @@
+type ManualReply = variant { Ok : nat32; Err : text };
+service : () -> { drainCycles : () -> (ManualReply) }
